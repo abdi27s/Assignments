@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tipcalculator.css" />
+    <script src="tipcalculator.js"></script>
+  </head>
+  <body>
+    <div id="tipCalc">
+      <p>
+        Enter the total bill amount: Rs 
+        <input id="totalAmount" type="text" onchange="" /> <br />
+        Enter the tip percentage:
+        <input id="percentage" type="text" onchange="" /> %
+      </p>
+      <button id="calculate" onclick="tipCalculation()">Calculate</button>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

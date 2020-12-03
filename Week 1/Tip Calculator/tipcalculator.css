@@ -1,0 +1,46 @@
+#tipCalc {
+  background-color: lightseagreen;
+  text-align: center;
+  width: auto;
+  margin: 10px 400px;
+  padding: 20px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#totalAmount,
+#percentage {
+  font-size: 20px;
+  background-color: bisque;
+  width: 40px;
+  border: 2px solid;
+  outline: none;
+  margin: 5px 0px;
+}
+
+#totalAmount {
+    width:60px !important;
+}
+
+#calculate {
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  background-color: lightgray;
+  outline: none;
+}
+
+#calculate:hover {
+  background-color: gray;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 20px;
+}
