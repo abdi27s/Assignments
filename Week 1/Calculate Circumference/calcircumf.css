@@ -27,6 +27,7 @@ p {
   width: auto;
   text-align: center;
   background-color: lightgray;
+  cursor: pointer;
 }
 
 #calculate:hover {
