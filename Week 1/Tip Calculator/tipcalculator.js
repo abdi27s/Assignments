@@ -4,10 +4,10 @@ function tipCalculation() {
 
   if (amount <= 0) {
     alert("Please enter the Bill Amount.");
-    location.reload();
+    
   } else if (percent <= 0) {
     alert("Please enter the tip percentage.");
-    location.reload();
+    
   } else {
     let tipAmount = (amount * percent) / 100;
 
