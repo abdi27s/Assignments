@@ -1,40 +1,39 @@
-#radi{
-    background-color: lightseagreen;
-    text-align: center;
-    width: auto;
-    margin: 10px 500px;
-    padding: 20px;
-    
+#radi {
+  background-color: lightseagreen;
+  text-align: center;
+  width: auto;
+  margin: 10px 500px;
+  padding: 20px;
 }
 
-p{
-    font-weight: bold;
-    font-size: 20px;
+p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
-#radius{
-    font-size: 20px;
-    background-color: bisque;
-    width: 25px; 
-    border: 2px solid; 
-    outline: none;
+#radius {
+  font-size: 20px;
+  background-color: bisque;
+  width: 25px;
+  border: 2px solid;
+  outline: none;
 }
 
-#calculate{
-    font-weight: bold;
-    font-size: 15px;
-    border: 1px solid;
-    border-radius: 5px;
-    width: auto;
-    text-align: center;
-    background-color:lightgray; 
+#calculate {
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  background-color: lightgray;
 }
 
-#calculate:hover{
-    background-color: gray;
+#calculate:hover {
+  background-color: gray;
 }
 
-#circ{
-    font-weight: bold;
-    font-size: 20px;
+#circ {
+  font-weight: bold;
+  font-size: 20px;
 }
