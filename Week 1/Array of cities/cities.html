@@ -14,11 +14,11 @@
     
     <script>
       let city= ["Biratnagar", "Lalitpur", "Patan", "Kathmandu","Pokhara","Palpa"];
-      document.getElementById('cityNames').innerHTML=`Cities: `+city;
+      document.getElementById('cityNames').innerHTML=`Cities: `+city; //printing current elements from array
 
       function remove_add(){
-          city.splice(3,1,"Bhaktapur","Ghandruk")
-          document.getElementById('result').innerHTML=`New City List: `+city+`<br> Total number: `+city.length;
+          city.splice(3,1,"Bhaktapur","Ghandruk");  //removing 1 element from 3rd place and adding 2 new element 
+          document.getElementById('result').innerHTML=`New City List: `+city+`<br> Total number: `+city.length; //printing new elements of array
       }
     </script>
   </body>
