@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculate Circumference</title>
-</head>
-<body>
+    <link rel="stylesheet" href="calcircumf.css" />
+    <script src="calcircumf.js"></script>
+  </head>
+
+  <body>
+    <div id="radi">
+      <p>
+        Enter the Radius(r):
+        <input id="radius" type="text" onchange="" /> cm
+      </p>
+      <button id="calculate" onclick="circumference()" >Calculate</button>
+      <div id="circ">
+
+      </div>
+    </div>
     
-</body>
+  </body>
 </html>
