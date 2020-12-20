@@ -5,13 +5,10 @@ const api = {
   apiSite: "api.openweathermap.org/data/2.5/",
 };
 
-
 function App() {
   return (
     <div className="App">
-      <main>
-        
-      </main>
+      <main></main>
     </div>
   );
 }
