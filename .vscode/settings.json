@@ -1,3 +1,12 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "projectManager.git.baseFolders": [
+        "E:\\GITHUB"
+    ],
+    "git.scanRepositories": [
+        "https://github.com/abdi27s?tab=repositories"
+    ],
+    "projectManager.vscode.baseFolders": [
+        "E:\\GitHub"
+    ]
 }
